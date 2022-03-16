@@ -1,5 +1,6 @@
 import next from 'next'
 import express, { Application, Request, Response } from 'express'
+import 'dotenv/config'
 
 const port = parseInt(process.env.PORT || '3000', 10)
 const dev = process.env.NODE_ENV !== 'production'
